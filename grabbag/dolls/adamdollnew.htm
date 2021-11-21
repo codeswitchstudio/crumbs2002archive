@@ -1,0 +1,113 @@
+
+<HTML>
+<HEAD>
+<TITLE>Sid's Closet</TITLE>
+
+
+
+<!-----------------------START OF JAVASCRIPT------------------------>
+
+<SCRIPT LANGUAGE="JAVASCRIPT">
+<!--
+
+
+//check if netscape is used
+net = (document.all) ? 0 : 1;
+
+var obj;
+
+//on mouse down
+function mouseDown(e)
+{  	//if netscape is used
+	if(net)
+   	{  	//get the object name & the offset of the object (x,y)
+		obj = document.layers[e.target.name];
+      		X=e.x;
+	     	Y=e.y;
+      		return false;
+   	}
+	//if ie is used
+   	else
+   	{   	//???
+		obj = event.srcElement.parentElement.style;
+       		X=event.offsetX;
+       		Y=event.offsetY;
+   	}
+}
+
+//on mouse move
+function mouseMove(e)
+{	//if object was selected
+ 	if(obj)
+   	{   	if(net)
+       		{   	//pageX is not an object in IE
+			obj.moveTo((e.pageX-X), (e.pageY-Y));
+       		}
+       		else
+       		{   	obj.pixelLeft = event.clientX-X + document.body.scrollLeft;
+           		obj.pixelTop = event.clientY-Y + document.body.scrollTop;
+           		return false;
+       		}
+   	}
+}
+
+//on mouse up
+function mouseUp()
+{	//let go of the object
+	obj = null;
+}
+
+//get the events for netscape
+if(net)
+{	document.captureEvents(Event.MOUSEDOWN | Event.MOUSEMOVE | Event.MOUSEUP);
+}
+
+//get the events for ie
+document.onmousedown = mouseDown;
+document.onmousemove = mouseMove;
+document.onmouseup = mouseUp;
+//-->
+</SCRIPT>
+
+
+
+<!-----------------------END OF JAVASCRIPT------------------------>
+
+
+
+
+<!-----------------------WORDS------------------------> 
+<body bgcolor="#CCCC99" background="images/new-adam-doll.gif" link="#CCCCFF" vlink="#CCCCFF" alink="#CCFFCC">
+<!-----------------------END OF WORDS------------------------> 
+<div id="diesels" style="position:absolute; left:40px; top:209px;; width: 25px; height: 32px; visibility: visible; z-index: 2"> 
+  <img src="images/diesel-trousers.gif"> </div>
+<div id="atshirt" style="position:absolute; left:379px; top:32px;; width: 25px; height: 32px; visibility: visible; z-index: 3"><img src="images/pink-at-shirt.gif"> 
+</div>
+<div id="jennyshirt" style="position:absolute; left:386px; top:214px;; width: 43px; height: 20px; visibility: visible; z-index: 26"> 
+  <img src=images/blue-jenny-shirt.gif name="give"> </div>
+<div id="mao" style="position:absolute; left:32px; top:42px;; visibility: visible; z-index: 6; width: 132px; height: 140px"> 
+  <img src="images/yellow-mao-star.gif"> </div>
+<div id="slax" style="position:absolute; left:40px; top:206px;; width: 30px; height: 35px; visibility: visible; z-index: 1"> 
+  <img src="images/slacks.gif"> </div>
+<div id="hams" style="position:absolute; left:358px; top:34px;; width: 35px; height: 147px; z-index: 24; visibility: visible"> 
+  <img src="images/hamsean-polo.gif"> </div>
+<div id="maroons" style="position:absolute; left:29px; top:43px;; width: 142px; height: 32px; visibility: visible; z-index: 7"> 
+  <img src="images/fighting-maroon-six.gif"> </div>
+<div id="shorts" style="position:absolute; left:60px; top:209px;; width: 43px; height: 32px; visibility: visible; z-index: 14"> 
+  <img src=images/blue-striped-boxers.gif name="see"> </div>
+<div id="blue" style="position:absolute; width:138px; height:115px; z-index:23; left: 59px; top: 53px"><img src="images/blueT.gif"></div>
+<div id="breasts" style="position:absolute; width:170px; height:115px; z-index:15; left: 46px; top: 54px"><img src="images/breasts.gif"></div>
+<div id="noir" style="position:absolute; width:176px; height:115px; z-index:8; left: 352px; top: 30px"><img src="images/saffron-noir.gif"></div>
+<div id="gas" style="position:absolute; width:116px; height:115px; z-index:27; left: 58px; top: 50px"><img src="images/gasoline-76.gif"></div>
+<div id="glasses" style="position:absolute; width:59px; height:17px; z-index:16; top: 191px; left: 105px"><img src="images/geek-glasses.gif"></div>
+<div id="blujaket" style="position:absolute; width:130px; height:155px; z-index:30; left: 385px; top: 206px"><img src="images/blue-jacket.gif" width="122" height="160"></div>
+<div id="blakjaket" style="position:absolute; width:144px; height:115px; z-index:29; left: 385px; top: 208px; visibility: visible"><img src="images/black-jacket.gif"></div>
+<div id="uptite" style="position:absolute; width:147px; height:115px; z-index:21; left: 622px; top: 324px"><img src="images/tight-red-UP.gif"></div>
+<div id="loveT" style="position:absolute; width:135px; height:115px; z-index:12; left: 38px; top: 47px"><img src="images/in-love.gif"></div>
+<div id="blakjuan" style="position:absolute; width:138px; height:115px; z-index:17; left: 767px; top: 333px"><img src="images/black-juan-dela-cruz.gif"></div>
+<div id="boots" style="position:absolute; width:105px; height:43px; z-index:31; left: 373px; top: 357px"><img src="images/red-boots.gif" width="93" height="33"></div>
+<div id="sexyboy" style="position:absolute; width:145px; height:115px; z-index:5; left: 365px; top: 33px"><img src="images/sexy-boy.gif" width="127" height="125"></div>
+<div id="camou" style="position:absolute; width:153px; height:115px; z-index:11; left: 28px; top: 47px"><img src="images/camou-shirt.gif" width="127" height="125"></div>
+<div id="chux" style="position:absolute; width:105px; height:56px; z-index:33; left: 434px; top: 356px"><img src="images/chuck-taylors.gif" width="95" height="34"></div>
+</BODY></HTML>
+

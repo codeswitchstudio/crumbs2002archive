@@ -1,0 +1,299 @@
+
+<HTML>
+<HEAD>
+<TITLE>....and the boy and the girl left a trail of BREADCRUMBS deep into the woods ....</TITLE>
+
+
+
+<!-----------------------START OF JAVASCRIPT------------------------>
+
+<SCRIPT LANGUAGE="JAVASCRIPT">
+<!--
+//check if netscape is used
+net = (document.all) ? 0 : 1;
+
+var obj;
+
+//on mouse down
+function mouseDown(e)
+{  	//if netscape is used
+	if(net)
+   	{  	//get the object name & the offset of the object (x,y)
+		obj = document.layers[e.target.name];
+      		X=e.x;
+	     	Y=e.y;
+      		return false;
+   	}
+	//if ie is used
+   	else
+   	{   	//???
+		obj = event.srcElement.parentElement.style;
+       		X=event.offsetX;
+       		Y=event.offsetY;
+   	}
+}
+
+//on mouse move
+function mouseMove(e)
+{	//if object was selected
+ 	if(obj)
+   	{   	if(net)
+       		{   	//pageX is not an object in IE
+			obj.moveTo((e.pageX-X), (e.pageY-Y));
+       		}
+       		else
+       		{   	obj.pixelLeft = event.clientX-X + document.body.scrollLeft;
+           		obj.pixelTop = event.clientY-Y + document.body.scrollTop;
+           		return false;
+       		}
+   	}
+}
+
+//on mouse up
+function mouseUp()
+{	//let go of the object
+	obj = null;
+}
+
+//get the events for netscape
+if(net)
+{	document.captureEvents(Event.MOUSEDOWN | Event.MOUSEMOVE | Event.MOUSEUP);
+}
+
+//get the events for ie
+document.onmousedown = mouseDown;
+document.onmousemove = mouseMove;
+document.onmouseup = mouseUp;
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+function MM_displayStatusMsg(msgStr) { //v1.0
+  status=msgStr;
+  document.MM_returnValue = true;
+}
+//-->
+</SCRIPT>
+
+
+
+<!-----------------------END OF JAVASCRIPT------------------------>
+
+
+
+
+<!-----------------------WORDS------------------------> 
+<body bgcolor="#6699CC" background="images/splash.jpg" onLoad="MM_displayStatusMsg('\&quot;...a product of botched capitalism, they rolled together as loose change is bound to\&quot; - Belle &amp; Sebastian, 1998');return document.MM_returnValue" link="#CCCCFF" vlink="#CCCCFF" alink="#CCFFCC">
+<div id="mental" style="position:absolute; width:30px; height:35px; z-index:4; left: 303px; top: 411px; visibility: visible"><img src=images/mental.gif name="mental" onDblClick="MM_openBrWindow('mentalnote.htm','','scrollbars=yes,width=400,height=400')" border="0"></div>
+<div id="sixty7" style="position:absolute; width:108px; height:34px; z-index:2; left: 438px; top: 86px; visibility: visible"><img src=images/67.gif name="sixty7" onDblClick="MM_openBrWindow('sixty7.htm','','scrollbars=yes,width=400,height=400')" width="103" height="29" border="0"></div>
+<!-----------------------END OF WORDS------------------------> 
+<div id="three46" style="position:absolute; width:55px; height:35px; z-index:1; left: 18px; top: 311px; visibility: visible"><img src=images/346.gif name="three46" onDblClick="MM_openBrWindow('346.htm','','scrollbars=yes,width=400,height=400')" width="55" height="29" border="0"></div>
+<div id="death" style="position:absolute; width:108px; height:34px; z-index:2; left: 8px; top: 396px; visibility: visible"><img src=images/afterlife.gif name="death" onDblClick="MM_openBrWindow('afterlife.htm','','scrollbars=yes,width=400,height=400')" width="110" height="37" border="0"></div>
+<div id="steps" style="position:absolute; width:200px; height:35px; z-index:6; left: 13px; top: 16px; visibility: visible"><img src=images/steps.gif name="steps" onDblClick="MM_openBrWindow('talk.htm','','scrollbars=yes,width=400,height=400')" width="677" height="37" border="0"></div>
+<div id="twotimed" style="position:absolute; width:108px; height:34px; z-index:2; left: 3px; top: 156px; visibility: visible"><img src=images/2time.gif name="krishna" onDblClick="MM_openBrWindow('2time.htm','','scrollbars=yes,width=400,height=400')" width="278" height="37" border="0"></div>
+<div id="end" style="position:absolute; width:108px; height:34px; z-index:2; left: 13px; top: 436px; visibility: visible"><img src=images/terminated.gif name="terminated" onDblClick="MM_openBrWindow('terminated.htm','','scrollbars=yes,width=400,height=400')" width="188" height="30" border="0"></div>
+<div id="black" style="position:absolute; width:60px; height:34px; z-index:2; left: 3px; top: 331px; visibility: visible"><img src=images/black.gif name="black" onDblClick="MM_openBrWindow('black.htm','','scrollbars=yes,width=400,height=400')" width="55" height="31" border="0"></div>
+<div id="blister" style="position:absolute; width:108px; height:34px; z-index:2; left: 388px; top: 126px; visibility: visible"><img src=images/blister.gif name="blister" onDblClick="MM_openBrWindow('blister.htm','','scrollbars=yes,width=400,height=400')" width="169" height="32" border="0"></div>
+<div id="deep" style="position:absolute; width:108px; height:34px; z-index:2; left: 63px; top: 86px; visibility: visible"><img src=images/deepset.gif name="deepset" onDblClick="MM_openBrWindow('eyes2.htm','','scrollbars=yes,width=400,height=400')" width="371" height="33" border="0"></div>
+<div id="eyes" style="position:absolute; width:40px; height:34px; z-index:2; left: 158px; top: 416px; visibility: visible"><img src=images/eyes.gif name="eyes" onDblClick="MM_openBrWindow('eyes.htm','','scrollbars=yes,width=400,height=400')" width="40" height="30" border="0"></div>
+<div id="love" style="position:absolute; width:108px; height:34px; z-index:2; left: 363px; top: 41px; visibility: visible"><img src=images/fallinlove.gif name="love" onDblClick="MM_openBrWindow('mentalnote.htm','','scrollbars=yes,width=400,height=400')" width="191" height="39" border="0"></div>
+<div id="lola" style="position:absolute; width:108px; height:34px; z-index:2; left: 398px; top: 171px; visibility: visible"><img src=images/lola.gif name="lola" onDblClick="MM_openBrWindow('lola.htm','','scrollbars=yes,width=400,height=400')" width="102" height="32" border="0"></div>
+<div id="song" style="position:absolute; width:85px; height:34px; z-index:2; left: 303px; top: 171px; visibility: visible"><img src=images/lullabye.gif name="lullabye" onDblClick="MM_openBrWindow('lullabye.htm','','scrollbars=yes,width=400,height=400')" border="0" width="74" height="32"></div>
+<div id="mobile" style="position:absolute; width:70px; height:34px; z-index:2; left: 523px; top: 151px; visibility: visible"><img src=images/mobile.gif name="mobile" onDblClick="MM_openBrWindow('mobile.htm','','scrollbars=yes,width=400,height=400')" width="60" height="30" border="0"></div>
+<div id="red" style="position:absolute; width:108px; height:34px; z-index:2; left: 308px; top: 441px; visibility: visible"><img src=images/palm.gif name="palm" onDblClick="MM_openBrWindow('quiet.htm','','scrollbars=yes,width=400,height=400')" width="120" height="34" border="0"></div>
+<div id="call" style="position:absolute; width:108px; height:34px; z-index:2; left: 3px; top: 201px; visibility: visible"><img src=images/phone.gif name="call" onDblClick="MM_openBrWindow('phone.htm','','scrollbars=yes,width=400,height=400')" width="297" height="34" border="0"></div>
+<div id="quiet" style="position:absolute; width:108px; height:34px; z-index:2; left: 13px; top: 46px; visibility: visible"><img src=images/quiet.gif name="quiet" onDblClick="MM_openBrWindow('phone.htm','','scrollbars=yes,width=400,height=400')" width="345" height="36" border="0"></div>
+<div id="hair" style="position:absolute; width:108px; height:34px; z-index:2; left: 13px; top: 236px; visibility: visible"><img src=images/soft.gif name="hair" onDblClick="MM_openBrWindow('krishna.htm','','scrollbars=yes,width=400,height=400')" width="126" height="28" border="0"></div>
+<div id="tongue" style="position:absolute; width:85px; height:34px; z-index:2; left: 218px; top: 446px; visibility: visible"><img src=images/tongue.gif name="tongue" onDblClick="MM_openBrWindow('tongue.htm','','scrollbars=yes,width=400,height=400')" width="74" height="33" border="0"></div>
+<div id="webs" style="position:absolute; width:106px; height:36px; z-index:3; left: 508px; top: 171px; visibility: visible"><img src=images/webs.gif name="webs" onDblClick="MM_openBrWindow('webs.htm','','scrollbars=yes,width=400,height=400')" width="100" height="31" border="0"></div>
+<div id="freak" style="position:absolute; width:108px; height:34px; z-index:2; left: 13px; top: 121px; visibility: visible"><img src=images/freak.gif name="freak" onDblClick="MM_openBrWindow('freak.htm','','scrollbars=yes,width=400,height=400')" width="370" height="34" border="0"> 
+</div>
+<div id="exclaim" style="position:absolute; width:31px; height:36px; z-index:5; left: 558px; top: 41px; visibility: visible"><img src=images/!.gif name="!" width="21" height="36"></div>
+<div id="give" style="position:absolute; left:873px; top:331px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/give.gif name="give" width="48" height="30"> </div>
+<div id="young" style="position:absolute; left:868px; top:171px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/young.gif name="young" width="58" height="32"> </div>
+<div id="boxes" style="position:absolute; left:818px; top:86px;; width: 43px; height: 35px; visibility: visible"> 
+  <img src=images/boxes.gif name="boxes" width="60" height="31"> </div>
+<div id="and" style="position:absolute; left:343px; top:56px;; width: 25px; height: 32px; visibility: visible"> 
+  <img src=images/&amp;.gif name="&amp;" width="24" height="26"> </div>
+<div id="a" style="position:absolute; left:323px; top:211px;; width: 25px; height: 32px; visibility: visible"> 
+  <img src=images/a.gif name="a" width="21" height="21"> </div>
+<div id="again" style="position:absolute; left:588px; top:431px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/again.gif name="again" width="59" height="34"> </div>
+<div id="am" style="position:absolute; left:848px; top:351px;; width: 43px; height: 20px; visibility: visible"> 
+  <img src=images/am.gif name="am" width="36" height="18"> </div>
+<div id="an" style="position:absolute; left:823px; top:191px;; width: 43px; height: 25px; visibility: visible"> 
+  <img src=images/an.gif name="an" width="31" height="21"> </div>
+<div id="ask" style="position:absolute; left:458px; top:446px;; width: 43px; height: 25px; visibility: visible"> 
+  <img src=images/ask.gif name="ask" width="44" height="23"> </div>
+<div id="bed" style="position:absolute; left:3px; top:291px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/bed.gif name="bed" width="41" height="31"> </div>
+<div id="boy" style="position:absolute; left:43px; top:346px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/boy.gif name="boy" width="43" height="34"> </div>
+<div id="both" style="position:absolute; left:758px; top:111px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/both.gif name="both" width="54" height="27"> </div>
+<div id="can" style="position:absolute; left:773px; top:96px;; width: 45px; height: 30px; visibility: visible"> 
+  <img src=images/can.gif name="can" width="39" height="23"> </div>
+<div id="cant" style="position:absolute; left:708px; top:381px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/cannot.gif name="cant" width="74" height="34"> </div>
+<div id="change" style="position:absolute; left:783px; top:376px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/change.gif name="change" width="68" height="33"> </div>
+<div id="circle" style="position:absolute; left:848px; top:116px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/circle.gif name="circle" width="62" height="32"> </div>
+<div id="cold" style="position:absolute; left:238px; top:411px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/cold.gif name="cold" width="52" height="32"> </div>
+<div id="day" style="position:absolute; left:18px; top:271px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/day.gif name="day" width="50" height="34"> </div>
+<div id="lover" style="position:absolute; left:853px; top:136px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/lover.gif name="lover" width="56" height="27"> </div>
+<div id="draw" style="position:absolute; left:603px; top:71px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/draw.gif name="draw" width="53" height="32"> </div>
+<div id="ed" style="position:absolute; left:488px; top:446px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/ed.gif name="ed" width="37" height="27"> </div>
+<div id="enemy" style="position:absolute; left:653px; top:86px;; width: 43px; height: 25px; visibility: visible"> 
+  <img src=images/enemy.gif name="enemy" width="63" height="24"> </div>
+<div id="for" style="position:absolute; left:693px; top:121px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/for.gif name="for" width="41" height="29"> </div>
+<div id="freelance" style="position:absolute; left:858px; top:41px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/freelance.gif name="freelance" width="89" height="36"> </div>
+<div id="pal" style="position:absolute; left:118px; top:101px;; width: 43px; height: 20px; visibility: visible"> 
+  <img src=images/friend.gif name="give" width="62" height="32"> </div>
+<div id="give" style="position:absolute; left:443px; top:356px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/girl.gif name="girl" width="44" height="35"> </div>
+<div id="give" style="position:absolute; left:698px; top:431px;; width: 43px; height: 25px; visibility: visible"> 
+  <img src=images/give.gif name="give" width="48" height="31"> </div>
+<div id="lucky" style="position:absolute; left:873px; top:416px;; width: 43px; height: 35px; visibility: visible"> 
+  <img src=images/gotlucky.gif name="lucky" width="94" height="31"> </div>
+<div id="heart" style="position:absolute; left:663px; top:66px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/heart.gif name="heart" width="53" height="29"> </div>
+<div id="heavy" style="position:absolute; left:648px; top:101px;; width: 60px; height: 30px; visibility: visible"> 
+  <img src=images/heavy.gif name="heavy" width="53" height="28"> </div>
+<div id="him" style="position:absolute; left:663px; top:36px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/him.gif name="him" width="47" height="34"> </div>
+<div id="her" style="position:absolute; left:908px; top:301px;; width: 43px; height: 35px; visibility: visible"> 
+  <img src=images/her.gif name="her" width="47" height="32"> </div>
+<div id="give" style="position:absolute; left:28px; top:86px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/his.gif name="his" width="38" height="28"> </div>
+<div id="hour" style="position:absolute; left:838px; top:371px;; width: 43px; height: 35px; visibility: visible"> 
+  <img src=images/hour.gif name="hour" width="53" height="32"> </div>
+<div id="how" style="position:absolute; left:743px; top:431px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/how.gif name="how" width="47" height="25"> </div>
+<div id="i" style="position:absolute; left:433px; top:426px;; width: 30px; height: 35px; visibility: visible"> 
+  <img src=images/i.gif name="i" width="26" height="31"> </div>
+<div id="ice" style="position:absolute; left:723px; top:81px;; width: 45px; height: 30px; visibility: visible"> 
+  <img src=images/ice.gif name="ice" width="40" height="29"> </div>
+<div id="in" style="position:absolute; left:728px; top:131px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/in.gif name="in" width="35" height="29"> </div>
+<div id="ing" style="position:absolute; left:83px; top:361px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/ing.gif name="ing" width="41" height="35"> </div>
+<div id="it" style="position:absolute; left:553px; top:76px;; width: 35px; height: 30px; visibility: visible"> 
+  <img src=images/it.gif name="it" width="31" height="25"> </div>
+<div id="lemon" style="position:absolute; left:633px; top:411px;; width: 43px; height: 20px; visibility: visible"> 
+  <img src=images/lemon.gif name="lemon" width="58" height="29"> </div>
+<div id="like" style="position:absolute; left:893px; top:106px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/like.gif name="like" width="39" height="27"> </div>
+<div id="lips" style="position:absolute; left:718px; top:61px;; width: 43px; height: 40px; visibility: visible"> 
+  <img src=images/lips.gif name="lips" width="40" height="32"> </div>
+<div id="lost" style="position:absolute; left:708px; top:41px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/lost.gif name="lost" width="48" height="31"> </div>
+<div id="his" style="position:absolute; left:718px; top:41px;; width: 43px; height: 30px; visibility: visible"> 
+  <img src=images/his.gif name="his" width="38" height="28"> </div>
+<div id="hers" style="position:absolute; left:693px; top:421px;; width: 50px; height: 25px; visibility: visible"> 
+  <img src=images/hers.gif name="hers" width="45" height="28"> </div>
+<div id="s" style="position:absolute; left:173px; top:111px;; width: 25px; height: 20px; visibility: visible"> 
+  <img src=images/s.gif name="s" width="18" height="23"> </div>
+<div id="made" style="position:absolute; left:593px; top:96px;; width: 35px; height: 30px; visibility: visible"> 
+  <img src=images/made.gif name="made" width="57" height="33"> </div>
+<div id="make" style="position:absolute; left:673px; top:391px;; width: 43px; height: 15px; visibility: visible"> 
+  <img src=images/make.gif name="make" width="51" height="30"> </div>
+<div id="may" style="position:absolute; left:823px; top:116px;; width: 30px; height: 25px; visibility: visible"> 
+  <img src=images/may.gif name="may" width="46" height="29"> </div>
+<div id="name" style="position:absolute; left:923px; top:196px;; width: 65px; height: 30px; visibility: visible"> 
+  <img src=images/name.gif name="name" width="57" height="29"> </div>
+<div id="new" style="position:absolute; left:803px; top:131px;; width: 55px; height: 20px; visibility: visible"> 
+  <img src=images/new.gif name="new" width="42" height="26"> </div>
+<div id="night" style="position:absolute; left:868px; top:351px;; width: 60px; height: 35px; visibility: visible"> 
+  <img src=images/night.gif name="night" width="54" height="31"> </div>
+<div id="old" style="position:absolute; left:833px; top:431px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/old.gif name="old" width="37" height="28"> </div>
+<div id="or" style="position:absolute; left:383px; top:181px;; width: 35px; height: 25px; visibility: visible"> 
+  <img src=images/or.gif name="or" width="28" height="23"> </div>
+<div id="our" style="position:absolute; left:843px; top:396px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/our.gif name="our" width="38" height="24"> </div>
+<div id="oranges" style="position:absolute; left:768px; top:46px;; width: 80px; height: 35px; visibility: visible"> 
+  <img src=images/oranges.gif name="oranges" width="74" height="30"> </div>
+<div id="please" style="position:absolute; left:718px; top:81px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/please.gif name="please" width="61" height="31"> </div>
+<div id="pretty" style="position:absolute; left:913px; top:156px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/pretty.gif name="pretty" width="48" height="31"> </div>
+<div id="question" style="position:absolute; left:273px; top:166px;; width: 35px; height: 32px; visibility: visible"> 
+  <img src=images/question.gif name="question" width="31" height="35"> </div>
+<div id="read" style="position:absolute; left:598px; top:416px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/read.gif name="read" width="49" height="32"> </div>
+<div id="remembers" style="position:absolute; left:323px; top:151px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/remembers.gif name="remembers" width="98" height="33"> </div>
+<div id="rendezvous" style="position:absolute; left:823px; top:71px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/rendezvous.gif name="rendezvous" width="108" height="34"> </div>
+<div id="romance" style="position:absolute; left:873px; top:371px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/romance.gif name="romance" width="80" height="30"> </div>
+<div id="saffron" style="position:absolute; left:758px; top:436px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/saffron.gif name="saffron" width="82" height="33"> </div>
+<div id="people" style="position:absolute; left:638px; top:431px;; width: 70px; height: 35px; visibility: visible"> 
+  <img src=images/people.gif name="people" width="65" height="36"> </div>
+<div id="said" style="position:absolute; left:638px; top:376px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/said.gif name="said" width="48" height="27"> </div>
+<div id="see" style="position:absolute; left:8px; top:141px;; width: 43px; height: 32px; visibility: visible"> 
+  <img src=images/see.gif name="see" width="42" height="30"> </div>
+<div id="school" style="position:absolute; left:678px; top:376px;; width: 60px; height: 25px; visibility: visible"> 
+  <img src=images/school.gif name="school" width="54" height="30"> </div>
+<div id="sid" style="position:absolute; left:883px; top:436px;; width: 100px; height: 35px; visibility: visible"> 
+  <img src=images/siddharta.gif name="sid" width="96" height="35"> </div>
+<div id="snogging" style="position:absolute; left:548px; top:106px;; width: 90px; height: 30px; visibility: visible"> 
+  <img src=images/snogging.gif name="snogging" width="84" height="32"> </div>
+<div id="speak" style="position:absolute; left:883px; top:211px;; width: 70px; height: 35px; visibility: visible"> 
+  <img src=images/speak.gif name="speak" width="59" height="34"> </div>
+<div id="cabs" style="position:absolute; left:853px; top:396px;; width: 95px; height: 30px; visibility: visible"> 
+  <img src=images/taxicabs.gif name="cabs" width="88" height="34"> </div>
+<div id="they" style="position:absolute; left:868px; top:286px;; width: 40px; height: 25px; visibility: visible"> 
+  <img src=images/they.gif name="they" width="46" height="30"> </div>
+<div id="the" style="position:absolute; left:903px; top:346px;; width: 45px; height: 25px; visibility: visible"> 
+  <img src=images/the.gif name="the" width="40" height="28"> </div>
+<div id="transparent" style="position:absolute; left:853px; top:251px;; width: 60px; height: 25px; visibility: visible"> 
+  <img src=images/transparent.gif name="transparent" width="106" height="33"> 
+</div>
+<div id="truth" style="position:absolute; left:858px; top:311px;; width: 60px; height: 25px; visibility: visible"> 
+  <img src=images/truth.gif name="truth" width="61" height="28"> </div>
+<div id="watch" style="position:absolute; left:38px; top:361px;; width: 60px; height: 25px; visibility: visible"> 
+  <img src=images/watch.gif name="watch" width="60" height="33"> </div>
+<div id="what" style="position:absolute; left:793px; top:346px;; width: 60px; height: 25px; visibility: visible"> 
+  <img src=images/what.gif name="what" width="53" height="29"> </div>
+<div id="when" style="position:absolute; left:743px; top:401px;; width: 60px; height: 25px; visibility: visible"> 
+  <img src=images/when.gif name="when" width="53" height="31"> </div>
+<div id="white" style="position:absolute; left:698px; top:101px;; width: 60px; height: 25px; visibility: visible"> 
+  <img src=images/white.gif name="white" width="57" height="30"> </div>
+<div id="why" style="position:absolute; left:708px; top:66px;; width: 60px; height: 25px; visibility: visible"> 
+  <img src=images/why.gif name="why" width="48" height="34"> </div>
+<div id="with" style="position:absolute; left:118px; top:406px;; width: 45px; height: 25px; visibility: visible"> 
+  <img src=images/with.gif name="with" width="44" height="30"> </div>
+<div id="work" style="position:absolute; left:868px; top:231px;; width: 60px; height: 25px; visibility: visible"> 
+  <img src=images/work.gif name="work" width="56" height="30"> </div>
+<div id="you" style="position:absolute; left:868px; top:196px;; width: 45px; height: 25px; visibility: visible"> 
+  <img src=images/you.gif name="you" width="42" height="29"> </div>
+<div id="he" style="position:absolute; left:293px; top:146px;; width: 25px; height: 30px; visibility: visible"> 
+  <img src=images/he.gif name="he" width="29" height="30"> </div>
+<div id="she" style="position:absolute; left:918px; top:131px;; width: 30px; height: 30px; visibility: visible"> 
+  <img src=images/she.gif name="she" width="27" height="26"> </div>
+<div id="closed" style="position:absolute; width:50px; height:34px; z-index:2; left: 198px; top: 421px; visibility: visible"><img src=images/closed.gif name="closed" onDblClick="MM_openBrWindow('closed.htm','','scrollbars=yes,width=400,height=400')" width="51" height="27" border="0"></div>
+<div id="think" style="position:absolute; left:723px; top:371px;; width: 65px; height: 30px; visibility: visible"> 
+  <img src=images/think.gif name="think" width="57" height="29"> </div>
+<div id="Layer1" style="position:absolute; width:890px; height:30px; z-index:7; left: 71px; top: 542px; visibility: visible"> 
+  <h3><font color="#FFFFFF" face="Arial, Helvetica, sans-serif" size="3">suggestion: 
+    drag 'em and make a story or double-click the green ones and follow the breadcrumb 
+    trail!</font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif" size="3"> 
+    &nbsp;</font><font color="#FFFFFF" face="Verdana, Arial, Helvetica, sans-serif" size="4">&nbsp;<font size="3" face="Arial, Helvetica, sans-serif"><a href="http://www.exultrade.com/indira/crumbs/version01/index.html" target="_self">back 
+    </a></font></font></h3>
+</div>
+</BODY></HTML>
+
